@@ -7,9 +7,9 @@ int main()
     cout << "Enter A and B: ";
     int a, b;
     cin >> a >> b;
-    cout << a + b << endl;
-    cout << a - b << endl;
-    cout << a * b << endl;
-    cout << a / b << endl;
+    cout << "A + B = " << a + b << '\n'
+     << "A - B = " << a - b << '\n'
+     << "A * B = " << a * b << '\n'
+     << "A / B = " << a / b << '\n';
     return 0;
 }
